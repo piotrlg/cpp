@@ -12,16 +12,9 @@ template<typename T>  void print_vec(std::vector<T>& vec, const std::string& des
     std::cout<<"vector's data: ";
     
     
-    
     for(auto i : vec)
         std::cout<< i << ", ";
     std::cout<<std::endl<<std::endl;
-    
-    
-    
-    
-    
-    
     
 }
 
@@ -29,7 +22,7 @@ int main(int argc, char **argv) {
         
     std::cout<<"argc: "<< argc<<std::endl;
     
-    
+    //komentarz
     std::vector<std::string> args;
     for(int i=0; i<argc; i++){
         args.push_back(argv[i]);   
