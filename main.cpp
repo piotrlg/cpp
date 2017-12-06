@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
     }
     print_vec(args,"args");
 
-        
+    //A tu inny vector       
     std::vector<int> v={1,2,3,4,5,6};
     print_vec(v,"v");
                
