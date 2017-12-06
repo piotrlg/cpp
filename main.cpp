@@ -2,6 +2,8 @@
 #include <vector>
 #include <string>
 
+//wyswietl zawartosc vectora z opisem czego dotyczy
+
 template<typename T>  void print_vec(std::vector<T>& vec, const std::string& desc)
 {
     std::cout<<desc<<": ";
@@ -22,7 +24,7 @@ int main(int argc, char **argv) {
         
     std::cout<<"argc: "<< argc<<std::endl;
     
-    //komentarz
+    //skopiuj argumenty wywolania programu do vectora
     std::vector<std::string> args;
     for(int i=0; i<argc; i++){
         args.push_back(argv[i]);   
